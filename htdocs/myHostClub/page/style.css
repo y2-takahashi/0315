@@ -1,0 +1,49 @@
+.contents{
+  display: flex;
+}
+.gazou{
+  width: 800px;
+  height: 600px;
+  background-image: url(img/83770878_p0_master1200.jpg);
+}
+.mozi{
+  width: 800px;
+  height: 600px;
+}
+
+.mainvisual {
+    height: 400px;
+    /* background-color: brown; */
+    background: url(img/gaikan-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.nasio{
+  height: 400px;
+  /* background-color: brown; */
+  background: url(img/nakaminasio-removebg-preview.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #2b2c2e;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.btn:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
